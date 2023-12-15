@@ -653,3 +653,121 @@ footer .fa-solid {
     margin-bottom: 40px;
 }
 
+/********* MEDIA QUERIES *********/
+
+/****** Page d'accueil ******/
+
+@media (min-width: 1024px) {
+
+    /**** Navbar ****/
+    
+    .navbar p {
+        font-size: 37px;
+        padding: 30px 0 30px 0;
+    }
+
+
+    /**** Explorer restaurants ****/ 
+
+    .explorer-restaurants h2 {
+        font-size: 40px;
+        margin-bottom: 18px;
+        line-height: 46.88px;
+    }
+
+    .explorer-restaurants p {
+        margin-bottom: 18px;
+    }
+
+    .explorer-restaurants .button-pink {
+        margin-bottom: 42px;
+        margin-top: 18px;
+    }
+
+
+    /**** Fonctionnement ****/ 
+
+    .fonctionnement {
+        display: flex;
+        flex-direction: column;
+        padding-right: 10%;
+        padding-left: 10%;
+        padding-bottom: 81px;
+    
+    }
+
+    .fonctionnement__cards {
+        display: flex;
+        flex-direction: row;
+        gap: 36px;
+    }
+
+    .fonctionnement__cards__card {
+        width: 33%;
+    }
+
+
+    /****** Restaurants ******/ 
+
+    .restaurants {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+    .restaurants__cards {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .restaurants__cards__row {
+        width: 100%;
+        flex-direction: row;
+        gap: 100px;
+    }
+
+    .restaurants__cards .card {
+        width: 100%;
+    }
+
+    .card img {
+        width: 100%;
+    }
+    
+    /****** Footer ******/
+
+    footer {
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 57px 0 30px 0;
+    }
+
+    footer h1 {
+        order: 1;
+        margin: 0 100px 0 71px;
+    }
+
+    footer .footer__text {
+        flex-direction: row;
+        gap: 7px;
+    }
+
+    .icon__text__gap {
+        margin-right: 30px;
+    }
+
+/****** Pages Menus ******/
+
+    .menu {
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+        align-items: center;
+    }
+
+    .menus-entrees-plats-desserts {
+        width: 60%;
+    }
+}
